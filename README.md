@@ -1,0 +1,1 @@
+this is the return: of the myth, the devour of souls, the lover known througout the lands, the god known to noone. Greg, and his list.
