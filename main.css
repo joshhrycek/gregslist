@@ -2,7 +2,18 @@
     box-sizing: border-box
 }
 
-#banner{
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 80px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+#nav-bar{
     position: fixed;
     top: 0;
     left: 0;
@@ -12,11 +23,85 @@
     border-bottom: 1px solid #DDDDDD;
 }
 
-#banner > h1 {
-    text-align: left
+nav, section {
+    margin-bottom: 30px;
+  }
+
+#top-nav{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
 }
 
-#header-list{
-    text-align: right;
+#nav-bar , #logo{
+    font-size: 18px;
+    margin: 0;
+}
+
+.header-link{
+    padding: 0px 5px;
+}
+
+#logo{
+    color: black;
+}
+
+#search-label, #serach{
+    display: block;
+}
+
+#search-label{
+    margin-bottom: 5px;
+}
+
+#search-bar{
+    display: inline-block;
+    width: 400px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+#search-button{
+    width: 37px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    vertical-align: bottom;
+    padding: 2px 6px 3px 6px;
+}
+
+#pages, .page-nav{
+    display: inline-block;
+}
+
+.page-nav, #pages {
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+}
+
+
+.page-nav, #page-display{
+    padding: 8px 25px;
+}
+
+#listings{
     list-style: none;
+    padding-left: 0px;
+}
+
+.listing{
+    margin-bottom: 15px;
+}
+
+.listing-title{
+    margin: 0px 5px 0px 5px;
+    font-weight: 700;
+}
+
+.listing-date, .listing-location{
+    color: grey
 }
